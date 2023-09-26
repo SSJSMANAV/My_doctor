@@ -91,6 +91,7 @@
 }
 
 #item-0 {
+  padding-top: 1rem;
   grid-row-start: 1;
   grid-row-end: 3;
 
@@ -117,5 +118,5 @@
 }
 
 img {
-  border-radius: 30%;
+  border-radius: 1rem;
 }

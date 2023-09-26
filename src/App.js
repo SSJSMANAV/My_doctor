@@ -97,7 +97,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div class="second_container ">
+
+      {/* SECOND CONTAINER */}
+      <div class="second_container" className="pb-32">
         <div className="w-5/12 my-0 mr-auto ml-auto">
           <h1 className="text-4xl font-semibold">
             Providing the best medical Services
@@ -140,6 +142,312 @@ function App() {
             <button className="border border-black rounded-full px-3 py-1 mt-4 hover:transform hover:translate-x-2 transition-transform duration-300 ease-in-out">
               <FontAwesomeIcon icon={faArrowRight} />
             </button>
+          </div>
+        </div>
+      </div>
+
+      {/* THIRD CONTAINER */}
+      <div class="third_container" className="flex pb-32">
+        <div className="w-5/12">
+          <div className="pl-10">
+            <img
+              src={process.env.PUBLIC_URL + "/img/doctor-1.png"}
+              style={{ width: "80%", height: "30%" }}
+            />
+          </div>
+        </div>
+        <div className="w-7/12 ml-5 ">
+          <h1 className="font-semibold text-4xl text-left">
+            Proud to be one of the nation's best
+          </h1>
+          <p className="text-left mt-5">
+            For 30 years in a row, U.S. News & World Report has recognized us as
+            one of the best publics hospitals in the Nation #1 in the Texas .
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+          <p className="text-left mt-4">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <div className="text-left mt-5">
+            <button
+              className="px-5 py-2 font-medium bg-blue-700 text-white hover:bg-white hover:text-blue-700"
+              style={{
+                // backgroundColor: "#334CFF",
+                borderRadius: "11px",
+              }}
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* FOURTH CONTAINER */}
+      <div class="fourth_container pb-32">
+        <div className="w-5/12 my-0 mr-auto ml-auto ">
+          <h3 className="text-4xl font-semibold">Our medical services</h3>
+          <p className="mt-3 font-normal">
+            World class for everyone. Our health System offers unmatched, expert
+            healthcare
+          </p>
+        </div>
+
+        {/* Grid Container */}
+        <div className="grid grid-cols-3 gird-rows-2 gap-10 mt-20 ">
+          <div>
+            <h1 className="text-xl text-left font-medium">Cancer Care</h1>
+            <p className="text-left mt-2 text-sm font-normal w-4/5">
+              World class for everyone. Our health System offers unmatched,
+              expert healthcare
+            </p>
+            <div className="flex justify-between mt-5 mb-5">
+              <button className="border border-black rounded-full px-3 py-1 mt-4 hover:transform hover:translate-x-2 transition-transform duration-300 ease-in-out">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </button>
+              <div className="mt-4 ">
+                <p
+                  className="bg-blue-200 px-3 py-1"
+                  style={{ borderRadius: "8px" }}
+                >
+                  1
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h1 className="text-xl text-left font-medium">Labor & Delivery</h1>
+            <p className="text-left mt-2 text-sm font-normal w-4/5">
+              World class for everyone. Our health System offers unmatched,
+              expert healthcare
+            </p>
+            <div className="flex justify-between mt-5 mb-5">
+              <button className="border border-black rounded-full px-3 py-1 mt-4 hover:transform hover:translate-x-2 transition-transform duration-300 ease-in-out">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </button>
+              <div className="mt-4 ">
+                <p
+                  className="bg-purple-200 px-3 py-1"
+                  style={{ borderRadius: "8px" }}
+                >
+                  2
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h1 className="text-xl text-left font-medium">Heart & Vascular</h1>
+            <p className="text-left mt-2 text-sm font-normal w-4/5">
+              World class for everyone. Our health System offers unmatched,
+              expert healthcare
+            </p>
+            <div className="flex justify-between mt-5 mb-5">
+              <button className="border border-black rounded-full px-3 py-1 mt-4 hover:transform hover:translate-x-2 transition-transform duration-300 ease-in-out">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </button>
+              <div className="mt-4 ">
+                <p
+                  className="bg-orange-200 px-3 py-1"
+                  style={{ borderRadius: "8px" }}
+                >
+                  3
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h1 className="text-xl text-left font-medium">Mental Health</h1>
+            <p className="text-left mt-2 text-sm font-normal w-4/5">
+              World class for everyone. Our health System offers unmatched,
+              expert healthcare
+            </p>
+            <div className="flex justify-between mt-5 mb-5">
+              <button className="border border-black rounded-full px-3 py-1 mt-4 hover:transform hover:translate-x-2 transition-transform duration-300 ease-in-out">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </button>
+              <div className="mt-4 ">
+                <p
+                  className="bg-orange-200 px-3 py-1"
+                  style={{ borderRadius: "8px" }}
+                >
+                  4
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h1 className="text-xl text-left font-medium">Neurology</h1>
+            <p className="text-left mt-2 text-sm font-normal w-4/5">
+              World class for everyone. Our health System offers unmatched,
+              expert healthcare
+            </p>
+            <div className="flex justify-between mt-5 mb-5">
+              <button className="border border-black rounded-full px-3 py-1 mt-4 hover:transform hover:translate-x-2 transition-transform duration-300 ease-in-out">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </button>
+              <div className="mt-4 ">
+                <p
+                  className="bg-blue-200 px-3 py-1"
+                  style={{ borderRadius: "8px" }}
+                >
+                  5
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h1 className="text-xl text-left font-medium">Burn Treatment</h1>
+            <p className="text-left mt-2 text-sm font-normal w-4/5">
+              World class for everyone. Our health System offers unmatched,
+              expert healthcare
+            </p>
+            <div className="flex justify-between mt-5 mb-5">
+              <button className="border border-black rounded-full px-3 py-1 mt-4 hover:transform hover:translate-x-2 transition-transform duration-300 ease-in-out">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </button>
+              <div className="mt-4 ">
+                <p
+                  className="bg-purple-200 px-3 py-1"
+                  style={{ borderRadius: "8px" }}
+                >
+                  6
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* FIFTH CONTAINER */}
+      <div class="fifth_container" className="flex pb-32">
+        <div className="w-1/2 text-left pt-16">
+          <div>
+            <h1 className="text-3xl font-semibold">
+              Get virtual treatment anytime
+            </h1>
+          </div>
+          <div className="mt-8">
+            <p className="font-normal">1. Schedule the appointment directly</p>
+            <p className="mt-2">
+              2. Search for your physician here, and contact their office
+            </p>
+            <p className="mt-3">
+              3. View our physicians who are accepting new patients, use the
+              online scheduling tool to select an appointment time.
+            </p>
+          </div>
+          <div className="mt-10">
+            <button
+              className="px-5 py-2 font-medium bg-blue-700 text-white hover:bg-white hover:text-blue-700"
+              style={{
+                // backgroundColor: "#334CFF",
+                borderRadius: "11px",
+              }}
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div className="w-1/2">
+          <div className=" pl-40">
+            <img
+              src={process.env.PUBLIC_URL + "/img/doctor-1.png"}
+              style={{ width: "100%", height: "25rem" }}
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* SIXTH CONTAINER */}
+      <div container="sixth_container">
+        <div className="w-5/12 my-0 mr-auto ml-auto ">
+          <h3 className="text-4xl font-semibold">Our great doctors</h3>
+          <p className="mt-3 font-normal">
+            World class for everyone. Our health System offers unmatched, expert
+            healthcare
+          </p>
+        </div>
+      </div>
+
+      {/* GRID CONTAINER */}
+      <div className="mt-24 grid grid-cols-3 gap-10">
+        <div>
+          <div>
+            <img
+              src={process.env.PUBLIC_URL + "/img/doctor-1.png"}
+              style={{ width: "100%", height: "22rem" }}
+            />
+          </div>
+          <div className="mt-4 text-left">
+            <h1 className="font-semibold text-xl">Dr. Sagar Prajapati</h1>
+            <div className="flex justify-between">
+              <button className="mt-4 px-6 py-1 bg-sky-200 text-sky-700 hover:text-black font-semibold">
+                Surgeon
+              </button>
+              <p className="mt-5">
+                4.5 <span className="font-light">(2)</span>
+              </p>
+            </div>
+            <div className="flex justify-between">
+              <p className="text-xs font-light  mt-5">Grande Hospital, Tokha</p>
+              <button className="border border-black rounded-full px-3 py-1 mt-3 hover:transform hover:translate-x-2 transition-transform duration-300 ease-in-out">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img
+              src={process.env.PUBLIC_URL + "/img/doctor-1.png"}
+              style={{ width: "100%", height: "22rem" }}
+            />
+          </div>
+          <div className="mt-4 text-left">
+            <h1 className="font-semibold text-xl">Dr. Sagar Sunar</h1>
+            <div className="flex justify-between">
+              <button className="mt-4 px-6 py-1 bg-sky-200 text-sky-700 hover:text-black font-semibold">
+                Surgeon
+              </button>
+              <p className="mt-5">
+                4.5 <span className="font-light">(2)</span>
+              </p>
+            </div>
+            <div className="flex justify-between">
+              <p className="text-xs font-light  mt-5">Grande Hospital, Tokha</p>
+              <button className="border border-black rounded-full px-3 py-1 mt-3 hover:transform hover:translate-x-2 transition-transform duration-300 ease-in-out">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img
+              src={process.env.PUBLIC_URL + "/img/doctor-1.png"}
+              style={{ width: "100%", height: "22rem" }}
+            />
+          </div>
+          <div className="mt-4 text-left">
+            <h1 className="font-semibold text-xl">Dr. Prabin Danuwar</h1>
+            <div className="flex justify-between">
+              <button className="mt-4 px-6 py-1 bg-sky-200 text-sky-700 hover:text-black font-semibold">
+                Surgeon
+              </button>
+              <p className="mt-5">
+                4.5 <span className="font-light">(2)</span>
+              </p>
+            </div>
+            <div className="flex justify-between">
+              <p className="text-xs font-light  mt-5">Grande Hospital, Tokha</p>
+              <button className="border border-black rounded-full px-3 py-1 mt-3 hover:transform hover:translate-x-2 transition-transform duration-300 ease-in-out">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </button>
+            </div>
           </div>
         </div>
       </div>
