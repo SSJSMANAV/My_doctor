@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
 .App {
   text-align: center;
+  color: #1a1a1a;
 }
 
 .App-logo {
@@ -28,6 +38,7 @@
   color: #61dafb;
 }
 
+/* KEYFRAMES */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -37,10 +48,15 @@
   }
 }
 
+.lin-grad {
+  background-image: linear-gradient(to right, #9eddff, #fff, #fffadd);
+}
+
 .font {
 }
 .medical {
   font-size: 1.5rem;
+  font-weight: 600;
 }
 .lft_con_first h1 {
   font-size: 3rem;
@@ -119,4 +135,12 @@
 
 img {
   border-radius: 1rem;
+}
+
+.font {
+  font-size: 0.9rem;
+}
+
+.font-radius {
+  border-radius: 40%;
 }
