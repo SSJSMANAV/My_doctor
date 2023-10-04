@@ -64,24 +64,22 @@
 .lft_con_first p {
   margin: 0.8rem 0rem;
 }
-.lft_con_first button {
+/* .lft_con_first button {
   margin-top: 1rem;
   padding: 0.5rem;
   border-radius: 20px;
-  /* background-color: blue; */
   color: blue;
   border: 2px solid black;
-  /* transition: background-color 0.3s ease, color 0.3s ease; */
   background: linear-gradient(to right, blue 50%, white 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
-}
+} */
 
-.lft_con_first button:hover {
+/* .lft_con_first button:hover {
   color: white;
   background-position: left bottom;
-}
+} */
 
 .left_container {
   width: 40%;
@@ -143,4 +141,25 @@ img {
 
 .font-radius {
   border-radius: 40%;
+}
+
+/* In your CSS file or Tailwind CSS configuration */
+.transition-height {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 02s ease-in-out;
+}
+
+.transition-height1 {
+  max-height: 0;
+  overflow: hidden;
+  transition: min-height 09s ease-in-out;
+}
+
+.max-height {
+  max-height: 1000px; /* Adjust this value based on your content */
+}
+
+.min-height {
+  min-height: 0px;
 }
